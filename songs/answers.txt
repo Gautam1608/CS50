@@ -1,0 +1,7 @@
+select sum(energy)/count(1) as avg_energy, sum(valence)/count(1) as avg_valence, sum(danceability )/count(1) as avg_danceability  from songs;
+The above query show the avg energy/valence/danceability of the users songs.
+Basend on this we can reach a conclusion that the user like songs with higher danceability.
+
+One issue with this metric is that it doesnt represent the frequency at which the users listen to their songs.
+If a user listens to a song frequently it gets the same weightage as any other song he might have just listened to once.
+If we add frequency to the table and multiply the avg by frequency then we can compary the parameters with respect to how many times they  listened to it.

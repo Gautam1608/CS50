@@ -1,0 +1,17 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Its worst case is the slowest of all. and best case is close to being the fastest. Of the mentioned algorithms only Bubble sort has any difference between best and worst cases.
+Reversed 50k ~ 5s
+Sorted 50k ~ 0.57s
+
+sort2 uses: Merge Sort
+
+How do you know?: As the Revered 50k is the worst case scenario for all mentioned algorightms and sort2 is fastest, it has to be merge sort. Also best and worst cases took the same time.
+Reversed 50k ~ 0.5s
+Sorted 50k ~ 0.5s
+
+sort3 uses: Selection Sort
+
+How do you know?: Took same time for Worst and Best case, i.e. Big O and Big Omega are equal. Since its slower in the best case, it cannot be merge sort.
+Reversed 50k ~ 2s
+Sorted 50k ~ 2s
